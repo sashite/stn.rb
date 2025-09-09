@@ -257,7 +257,5 @@ Open source under the [MIT License](https://opensource.org/licenses/MIT).
 
 Maintained by **Sashité** — promoting chess variants and sharing the beauty of board-game cultures.
 
----
-
 [CELL]: https://sashite.dev/specs/cell/1.0.0/
 [QPI]: https://sashite.dev/specs/qpi/1.0.0/
