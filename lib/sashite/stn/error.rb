@@ -8,7 +8,7 @@ module Sashite
     #   rescue Sashite::Stn::Error => e
     #   rescue Sashite::Stn::Error::Validation
     #   rescue Sashite::Stn::Error::Coordinate, Sashite::Stn::Error::Piece
-    class Error < StandardError
+    class Error < ::StandardError
       # Raised when an STN payload fails structural or semantic validation.
       #
       # @example
