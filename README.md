@@ -63,8 +63,8 @@ Bundler will install them automatically when you use `sashite-stn`.
 ```ruby
 {
   "board"  => { "e2" => nil, "e4" => "C:P" }, # e2 empties, e4 now has white pawn
-  "hands"  => { "c:p" => 1 },                  # add one black pawn to reserve
-  "toggle" => true                             # switch active player
+  "hands"  => { "c:p" => 1 },                 # add one black pawn to reserve
+  "toggle" => true                            # switch active player
 }
 ```
 
@@ -227,7 +227,7 @@ cd stn.rb
 # Install
 bundle install
 
-# Run smoke tests (if you keep a simple test.rb)
+# Run smoke tests
 ruby test.rb
 
 # Generate YARD docs
